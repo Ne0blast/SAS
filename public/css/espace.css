@@ -1,0 +1,953 @@
+/* Page 1 */
+#plus
+{
+	z-index: 100;
+	
+	position: fixed;
+	bottom: calc(1vw);
+	right: 1vw;
+	width: 5vh;
+	height: 5vh;
+	
+	display: table;
+}
+
+#plus span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}
+
+#plus span img
+{
+	height: 3vh;
+	
+	padding: 1vh;
+	
+	border-radius: 50%;
+	
+	background: #2196f3;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+#plus span img:hover
+{
+	background: #0d47a1;
+}
+
+#export
+{
+	z-index: 100;
+	
+	position: fixed;
+	bottom: calc(1vw + 5vh + 1vw);
+	right: 1vw;
+	width: 5vh;
+	height: 5vh;
+	
+	display: table;
+}
+
+#export span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}
+
+#export span img
+{
+	height: 3vh;
+	
+	padding: 1vh;
+	
+	border-radius: 50%;
+	
+	background: #ffc107;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+#export span img:hover
+{
+	background: #ff6f00;
+}
+
+#mail
+{
+	z-index: 100;
+	
+	position: fixed;
+	bottom: 1vw;
+	right: calc(1vw + 5vh + 1vw);
+	width: 5vh;
+	height: 5vh;
+	
+	display: table;
+}
+
+#mail span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}
+
+#mail span img
+{
+	height: 3vh;
+	
+	padding: 1vh;
+	
+	border-radius: 50%;
+	
+	background: #f44336;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+#mail span img:hover
+{
+	background: #b71c1c;
+}
+
+#page1 #content_page1 #title
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	
+	display: table;
+}
+
+#page1 #content_page1 #title span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 5vh;
+}
+
+#page1 #content_page1 #espace
+{
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	width: 98%;
+	height: 80%;
+}
+
+#page1 #content_page1 #espace #tabs
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	
+	display: table;
+	
+	background: #333333;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	color: white;
+	
+	font-size: 2.3vh;
+}
+
+#page1 #content_page1 #espace #tabs span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	cursor: pointer;
+	
+	width: calc(100% / 10);
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+#page1 #content_page1 #espace #tabs span.selected
+{
+	background: #f44336;
+}
+#page1 #content_page1 #espace #tabs span:hover
+{
+	background: rgba(255, 255, 255, 0.3);
+}
+
+#page1 #content_page1 #espace #tabs span:first-child
+{
+	border-top-left-radius: 5px;
+}
+
+#page1 #content_page1 #espace #tabs span:last-child
+{
+	border-top-right-radius: 5px;
+}
+
+#page1 #content_page1 #espace #content_tabs
+{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	
+	background: white;
+	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#page1 #content_page1 #espace #content_tabs .content
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	opacity: 0;
+	transform: scale(0);
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	overflow: auto;
+}
+#page1 #content_page1 #espace #content_tabs .content.selected
+{
+	opacity: 1;
+	transform: scale(1);
+}
+
+/* Mes informations */
+#page1 #content_page1 #espace #tab_informations .name
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	
+	display: table;
+}
+
+#page1 #content_page1 #espace #tab_informations .name span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 2.5vh;
+}
+
+#page1 #content_page1 #espace #tab_informations .form
+{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	height: 85%;
+	
+	display: table;
+}
+
+#page1 #content_page1 #espace #tab_informations .form span
+{
+	display: table-row;
+}
+
+#page1 #content_page1 #espace #tab_informations .form span p
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: left;
+	
+	font-size: 2vh;
+	
+	height: 5vh;
+}
+
+#page1 #content_page1 #espace #tab_informations .form span p input
+{
+	border: none;
+	
+	border-bottom: 1px dotted #a1a1a1;
+	
+	height: 2vh;
+	
+	font-size: 2vh;
+	
+	margin-left: 1vw;
+	
+	text-align: center;
+	
+	width: 12vw;
+}
+
+#page1 #content_page1 #espace #tab_informations .form span p i
+{
+	margin-right: 0.3vw;
+}
+
+#page1 #content_page1 #espace #tab_informations .form span p i.action
+{
+	color: #4bd350;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	border-radius: 50%;
+	
+	padding: 0.5vh;
+}
+#page1 #content_page1 #espace #tab_informations .form span p i.action:hover
+{	
+	background: #4bd350;
+	color: white;
+}
+
+/* Gestion des adhérents */
+#page1 #content_page1 #espace #tab_members table
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	border-collapse: collapse;
+}
+
+#page1 #content_page1 #espace #tab_members table tr
+{
+	text-align: center;
+}
+
+#page1 #content_page1 #espace #tab_members table th
+{
+	width: calc(98vw/22);
+	height: 10vh;
+	
+	font-size: 2vh;
+	
+	background: #4bd350;
+	color: white;
+	
+	font-weight: normal;
+}
+
+#page1 #content_page1 #espace #tab_members table tr td
+{
+	height: 7vh;
+}
+
+#page1 #content_page1 #espace #tab_members table td i
+{
+	color: #4bd350;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	border-radius: 50%;
+	
+	padding: 0.5vh;
+}
+#page1 #content_page1 #espace #tab_members table td i:hover
+{	
+	background: #4bd350;
+	color: white;
+}
+
+#page1 #content_page1 #espace #tab_members table td input
+{
+	text-align: center;
+	
+	border: none;
+	border-bottom: 1px solid grey;
+	
+	font-size: 2vh;
+	
+	width: 3vw;
+}
+
+#popup
+{
+	position: absolute;
+	top: 5%;
+	left: 30%;
+	width: 40%;
+	height: 90%;
+	
+	background: white;
+	
+	border-radius: 5px;
+	
+	transform: scale(0);
+	opacity: 0;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	box-shadow: 0 0 5px #4bd350;
+}
+
+#popup .title
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	
+	display: table;
+}
+
+#popup .title span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 2.7vh;
+	
+	color: #4bd350;
+}
+
+#popup .content
+{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 90%;
+	
+	display: table;
+	
+	font-size: 2vh;
+}
+
+#popup .content span
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#popup .content span i
+{
+	margin-right: 1vw;
+}
+
+#popup .content span input[type="text"]
+{
+	margin-left: 2vw;
+	
+	border: none;
+	border-bottom: 1px solid #4bd350;
+	
+	color: #4bd350;
+	
+	font-size: 2vh;
+	
+	width: 15vw;
+	
+	padding-left: 1vw;
+	
+	margin-bottom: 1vh;
+}
+
+#popup .content span select
+{
+	margin-left: 2vw;
+	
+	border: none;
+	border-bottom: 1px solid #4bd350;
+	
+	color: #4bd350;
+	
+	font-size: 2vh;
+	
+	width: 15vw;
+	
+	padding-left: 1vw;
+	
+	margin-bottom: 1vh;
+}
+
+#popup .content span input[type="checkbox"]
+{
+	margin-bottom: 1.5vh;
+}
+
+#popup .content span button
+{
+	height: 3vh;
+	width: 49.5%;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	border: none;
+	border-radius: 5px;
+	
+	font-size: 2vh;
+	
+	cursor: pointer;
+	
+	margin-top: 1.5vh;
+}
+#popup .content span button:hover
+{
+	background: #4bd350;
+	color: white;
+}
+
+/* Gestion des dates */
+#page1 #content_page1 #espace #tab_dates table
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	border-collapse: collapse;
+}
+
+#page1 #content_page1 #espace #tab_dates table tr
+{
+	text-align: center;
+}
+
+#page1 #content_page1 #espace #tab_dates table th
+{
+	width: calc(98vw/22);
+	height: 10vh;
+	
+	font-size: 2vh;
+	
+	background: #4bd350;
+	color: white;
+	
+	font-weight: normal;
+}
+
+#page1 #content_page1 #espace #tab_dates table tr td
+{
+	height: 7vh;
+}
+
+#page1 #content_page1 #espace #tab_dates table td i
+{
+	color: #4bd350;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	border-radius: 50%;
+	
+	padding: 0.5vh;
+}
+#page1 #content_page1 #espace #tab_dates table td i:hover
+{	
+	background: #4bd350;
+	color: white;
+}
+
+#page1 #content_page1 #espace #tab_dates table td input
+{
+	text-align: center;
+	
+	border: none;
+	border-bottom: 1px solid grey;
+	
+	font-size: 2vh;
+	
+	width: 10vw;
+}
+
+/* Gestion des équipes */
+#page1 #content_page1 #espace #tab_teams table
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	border-collapse: collapse;
+}
+
+#page1 #content_page1 #espace #tab_teams table th
+{
+	height: 10vh;
+	background: #4bd350;
+	color: white;
+	
+	font-size: 2.2vh;
+	
+	font-weight: normal;
+}
+
+#page1 #content_page1 #espace #tab_teams table tr
+{
+	text-align: center;
+}
+
+#page1 #content_page1 #espace #tab_teams table tr td
+{
+	height: 4vh;
+	
+	font-size: 2vh;
+}
+
+#page1 #content_page1 #espace #tab_teams table tr .team
+{
+	background: #c8e6c9;
+	
+	width: 20%;
+	
+	font-size: 4vh;
+	
+	border-bottom: 1px solid black;
+}
+
+#page1 #content_page1 #espace #tab_teams table tr .add
+{
+	background: #ffecb3;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	font-weight: bold;
+}
+#page1 #content_page1 #espace #tab_teams table tr .add:hover
+{
+	background: #ffc107;
+}
+
+#page1 #content_page1 #espace #tab_teams table tr .delete
+{
+	background: #ffcdd2;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	font-weight: bold;
+}
+#page1 #content_page1 #espace #tab_teams table tr .delete:hover
+{
+	background: #f44336;
+}
+
+#page1 #content_page1 #espace #tab_teams table td i
+{
+	color: #4bd350;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	border-radius: 50%;
+	
+	padding: 0.5vh;
+}
+#page1 #content_page1 #espace #tab_teams table td i:hover
+{	
+	background: #4bd350;
+	color: white;
+}
+
+#page1 #content_page1 #espace #tab_teams table td input
+{
+	text-align: center;
+	
+	border: none;
+	border-bottom: 1px solid grey;
+	
+	font-size: 2vh;
+	
+	width: 10vw;
+}
+
+/* Gestion des matches */
+#page1 #content_page1 #espace #tab_matches table
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	border-collapse: collapse;
+}
+
+#page1 #content_page1 #espace #tab_matches table th
+{
+	height: 10vh;
+	background: #4bd350;
+	color: white;
+	
+	font-size: 2.2vh;
+	
+	font-weight: normal;
+}
+
+#page1 #content_page1 #espace #tab_matches table tr
+{
+	text-align: center;
+}
+
+#page1 #content_page1 #espace #tab_matches table tr td
+{
+	height: 4vh;
+	
+	font-size: 2vh;
+}
+
+#page1 #content_page1 #espace #tab_matches table tr .team
+{
+	background: #c8e6c9;
+	
+	width: 20%;
+	
+	font-size: 4vh;
+	
+	border-bottom: 1px solid black;
+}
+
+#page1 #content_page1 #espace #tab_matches table tr .add
+{
+	background: #ffecb3;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	font-weight: bold;
+}
+#page1 #content_page1 #espace #tab_matches table tr .add:hover
+{
+	background: #ffc107;
+}
+
+#page1 #content_page1 #espace #tab_matches table tr .delete
+{
+	background: #ffcdd2;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	font-weight: bold;
+}
+#page1 #content_page1 #espace #tab_matches table tr .delete:hover
+{
+	background: #f44336;
+}
+
+#page1 #content_page1 #espace #tab_matches table td i
+{
+	color: #4bd350;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+	
+	border-radius: 50%;
+	
+	padding: 0.5vh;
+}
+#page1 #content_page1 #espace #tab_matches table td i:hover
+{	
+	background: #4bd350;
+	color: white;
+}
+
+#page1 #content_page1 #espace #tab_matches table td input[type="text"]
+{
+	text-align: center;
+	
+	border: none;
+	border-bottom: 1px solid grey;
+	
+	font-size: 2vh;
+	
+	width: 10vw;
+}
+
+/* Gestion des inscriptions aux tournois */
+#page1 #content_page1 #espace #tab_tournaments table
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	border-collapse: collapse;
+}
+
+#page1 #content_page1 #espace #tab_tournaments table th
+{
+	height: 8vh;
+	background: #4bd350;
+	color: white;
+	
+	font-size: 2.2vh;
+	
+	font-weight: normal;
+}
+
+#page1 #content_page1 #espace #tab_tournaments table td
+{
+	text-align: center;
+	
+	height: 5vh;
+	
+	font-size: 2vh;
+}
+
+/* Gestion des tournois jeunes */
+#page1 #content_page1 #espace #tab_jeunes div
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	display: table;
+}
+
+#page1 #content_page1 #espace #tab_jeunes div span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 3vh;
+}
+
+/* Connexion */
+#connect
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	display: table;
+}
+
+#connect span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}
+
+#connect span p
+{
+	font-size: 4vh;
+}
+
+#connect span input
+{
+	border: none;
+	border-bottom: 1px solid #4bd350;
+	
+	color: #4bd350;
+	
+	padding: 1vw;
+	
+	width: 30vw;
+    height: 5vh;
+	
+	font-size: 1.5em;
+    
+    border-radius: 3px;
+}
+
+#connect span button
+{
+	margin-top: 5vh;
+	
+	border: none;
+	border-radius: 5px;
+	
+	padding: 2vh;
+	
+	width: 15vw;
+	
+	background: #4bd350;
+	color: white;
+	
+	font-size: 1.3em;
+	
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	
+	cursor: pointer;
+}
+#connect span button:hover
+{	
+	background: #1b5e20;
+}

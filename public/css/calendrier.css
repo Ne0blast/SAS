@@ -1,0 +1,221 @@
+#page1 #content_page1 #title
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	
+	display: table;
+}
+
+#page1 #content_page1 #title span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 5vh;
+}
+
+#page1 #content_page1 #dates
+{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	width: 20%;
+	height: 70%;
+	
+	background: #e1e1e1;
+	
+	border-radius: 5px;
+}
+
+#page1 #content_page1 #dates #date
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: calc(100% / 3);
+	width: 100%;
+	
+	display: table;
+	
+	color: #f44336;
+}
+
+#page1 #content_page1 #dates #tournament
+{
+	position: absolute;
+	top: calc(100% / 3);
+	left: 0;
+	height: calc(100% / 3);
+	width: 100%;
+	
+	display: table;
+	
+	color: #3f51b5;
+}
+
+#page1 #content_page1 #dates #limit
+{
+	position: absolute;
+	top: calc(100% * 2 / 3);
+	left: 0;
+	height: calc(100% / 3);
+	width: 100%;
+	
+	display: table;
+	
+	color: #1b5e20;
+}
+
+#page1 #content_page1 #dates span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 2.3vh;
+}
+
+#page1 #content_page1 #calendar
+{
+	position: absolute;
+	top: 18%;
+	right: 5%;
+	width: 60%;
+	height: 70%;	
+	
+	border-bottom: 1px solid #212121;
+}
+
+#page1 #content_page1 #calendar table
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	border-collapse: collapse;
+}
+
+#page1 #content_page1 #calendar table tr
+{
+	text-align: center;
+	
+	height: calc(60vh / 8);
+}
+
+#page1 #content_page1 #calendar table tr td
+{
+	width: calc(60vw / 8);
+}
+
+#page1 #content_page1 #calendar table #calendar_month_actions
+{
+	font-size: 3.5vh;
+}
+
+#page1 #content_page1 #calendar table #calendar_month_actions img
+{
+	height: 2.5vh;
+	
+	padding: 1vh;
+	
+	margin-left: 1vw;
+	margin-right: 1vw;
+	
+	border-radius: 50%;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+#page1 #content_page1 #calendar table #calendar_month_actions img:hover
+{
+	background: #a5d6a7;
+}
+
+#page1 #content_page1 #calendar table #days
+{
+	font-size: 2.5vh;
+	
+	color: #4bd350;
+}
+
+#page1 #content_page1 #calendar table #days th
+{
+	border-left: 1px solid #a8a8a8;
+	border-right: 1px solid #a8a8a8;
+}
+
+#page1 #content_page1 #calendar table .days td
+{
+	border-left: 1px solid #a8a8a8;
+	border-right: 1px solid #a8a8a8;
+	
+	font-size: 2.2vh;
+	
+	cursor: pointer;
+}
+
+#page1 #content_page1 #calendar table .days .selected
+{
+	border: 2px solid #1b5e20;
+}
+
+#page1 #content_page1 #calendar table .days .current
+{
+	background-color: #4bd350;
+	color: white;
+}
+
+.circle
+{
+	display: inline-block;
+	
+	height: 2vh;
+	width: 2vh;
+	
+	border-radius: 50%;
+}
+
+.circle.circle-red
+{
+	background: #f44336;
+}
+
+.circle.circle-blue
+{
+	background: #3f51b5;
+}
+
+.circle.circle-orange
+{
+	background: #1b5e20;
+}
+
+#page1 #content_page1 #legend
+{
+	position: absolute;
+	top: 90%;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	
+	display: table;
+}
+
+#page1 #content_page1 #legend span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}

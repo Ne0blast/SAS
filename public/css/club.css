@@ -1,0 +1,474 @@
+/* Page 1 */
+#page1 #content_page1 #title
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	
+	display: table;
+}
+
+#page1 #content_page1 #title span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 5vh;
+}
+
+#page1 #content_page1 table .title td
+{
+    font-weight: bold;
+}
+
+#page1 #content_page1 table .name td
+{
+    color: #4bd350;
+    
+    font-weight: bold;
+}
+
+#page1 #content_page1 table td
+{
+    width: 25%;
+}
+
+#page1 #content_page1 table td img
+{
+    height: 10vh;
+    width: 5vw;
+}
+
+#page1 #content_page1 #bureau_main
+{
+	position: absolute;
+	top: 27.5%;
+	left: 20%;
+	width: 60%;
+	height: 20%;
+    
+    text-align: center;
+}
+
+#page1 #content_page1 #bureau_vice
+{
+	position: absolute;
+	top: 52.5%;
+	left: 25%;
+	width: 50%;
+	height: 20%;
+    
+    text-align: center;
+}
+
+#page1 #content_page1 #next
+{
+	position: absolute;
+	top: 85%;
+	left: 20%;
+	width: 60%;
+	height: 15%;
+	
+	display: table;
+	
+	font-size: 1em;
+}
+
+#page1 #content_page1 #next span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+    
+    width: 25%;
+}
+
+#page1 #content_page1 #next span img
+{
+	height: 4vh;
+	
+	padding: 2vh;	
+}
+
+#page1 #content_page1 #next span
+{
+    border-radius: 5px;
+    
+    cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+    font-size: 1.3em;
+}
+#page1 #content_page1 #next span:hover
+{
+    background: #4bd350;
+    color: white;
+}
+
+#page1 #content_page1 #question
+{
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	width: 40%;
+	height: 5%;
+	
+	display: table;
+	
+	font-size: 2.5vh;
+}
+
+#page1 #content_page1 #question span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	color: #bf360c;
+}
+
+/* Page 2 */
+#page2 #content_page2 #title
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	
+	display: table;
+}
+
+#page2 #content_page2 #title span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 5vh;
+}
+
+#page2 #content_page2 table
+{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    
+    text-align: center;
+    
+    border-collapse: collapse;
+}
+
+#page2 #content_page2 table .title
+{
+    font-weight: bold;
+    
+    font-size: 1.3em;
+    
+    color: #e89600;
+    
+    background: #ffe2ad;
+}
+
+#page2 #content_page2 table tr td
+{
+    width: calc(100% / 8);
+    
+    font-size: 1.3em;
+    
+    border: 1px solid #e89600;
+}
+
+#page2 #content_page2 #next
+{
+	position: absolute;
+	top: 85%;
+	left: 20%;
+	width: 60%;
+	height: 15%;
+	
+	display: table;
+	
+	font-size: 2.2vh;
+}
+
+#page2 #content_page2 #next span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+    
+    width: 25%;
+}
+
+#page2 #content_page2 #next span img
+{
+	height: 4vh;
+	
+	padding: 2vh;	
+}
+
+#page2 #content_page2 #next span
+{
+    border-radius: 5px;
+    
+    cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+    font-size: 1.3em;
+}
+#page2 #content_page2 #next span:hover
+{
+    background: #4bd350;
+    color: white;
+}
+
+/* Page 3 */
+#page3 #content_page3 #title
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	
+	display: table;
+}
+
+#page3 #content_page3 #title span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 5vh;
+}
+
+#page3 #content_page3 #logo_larde
+{
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	
+	display: table;
+}
+
+#page3 #content_page3 #logo_larde span
+{
+    display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}
+
+#page3 #content_page3 #logo_larde span img
+{
+    height: 15vh;
+}
+
+#page3 #content_page3 table
+{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    height: 20%;
+    
+    text-align: center;
+}
+
+#page3 #content_page3 table .reduc
+{
+    font-weight: bold;
+    
+    font-size: 3em;
+    
+    color: #ff5800;
+}
+
+#page3 #content_page3 table .description
+{
+    font-size: 1.5em;
+}
+
+#page3 #content_page3 table .description b
+{
+    color: #ff5800;
+}
+
+#page3 #content_page3 #more
+{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    width: 70%;
+    height: 10%;
+    
+    display: table;
+    
+    font-size: 1.4em;
+}
+
+#page3 #content_page3 #more span
+{
+    display: table-cell;
+    vertical-align: middle;
+    
+    text-align: center;
+}
+
+#page3 #content_page3 #next
+{
+	position: absolute;
+	top: 85%;
+	left: 40%;
+	width: 20%;
+	height: 15%;
+	
+	display: table;
+	
+	font-size: 2.2vh;
+}
+
+#page3 #content_page3 #next span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+    
+    width: 25%;
+}
+
+#page3 #content_page3 #next span img
+{
+	height: 4vh;
+	
+	padding: 2vh;	
+}
+
+#page3 #content_page3 #next span
+{
+    border-radius: 5px;
+    
+    cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+    font-size: 1.3em;
+}
+#page3 #content_page3 #next span:hover
+{
+    background: #4bd350;
+    color: white;
+}
+
+/* Page 4 */
+#page4 #content_page4 #title
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	
+	display: table;
+}
+
+#page4 #content_page4 #title span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+	
+	font-size: 5vh;
+}
+
+#page4 #content_page4 #creneaux
+{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	height: 70%;
+}
+
+#page4 #content_page4 #creneaux table
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-height: 100%;
+	
+	border-collapse: collapse;
+}
+
+#page4 #content_page4 #creneaux table tr
+{
+	height: 3.7vh;
+	
+	text-align: center;
+	
+	border-bottom: 1px solid #bdbdbd;
+}
+
+#page4 #content_page4 #creneaux table .jeunes
+{
+	background: #fff8e1;
+}
+#page4 #content_page4 #creneaux table .loisirs
+{
+	background: #e0f2f1;
+}
+#page4 #content_page4 #creneaux table .competitions
+{
+	background: #e8eaf6;
+}
+#page4 #content_page4 #creneaux table .ouvert
+{
+	background: #ffebee;
+}
+
+#page4 #content_page4 #creneaux table th
+{
+	background: #e8f5e9;
+}
+
+#page4 #content_page4 #creneaux table th
+{
+	font-size: 2.5vh;
+	
+	width: 20%;
+	
+	color: #1b5e20;
+	
+	border-bottom: 1px solid #1b5e20;
+}
+
+#page4 #content_page4 #creneaux table td
+{
+	font-size: 2.2vh;
+}

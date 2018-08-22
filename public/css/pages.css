@@ -1,0 +1,215 @@
+#up
+{
+	z-index: 100;
+	
+	position: fixed;
+	bottom: 1vw;
+	right: 1vw;
+	width: 8vh;
+	height: 8vh;
+	
+	display: table;
+}
+
+#up span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}
+
+#up span img
+{
+	height: 4vh;
+	
+	padding: 2vh;
+	
+	border-radius: 50%;
+	
+	background: #4bd350;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+#up span img:hover
+{
+	background: #1b5e20;
+}
+
+#plus
+{
+	z-index: 100;
+	
+	position: fixed;
+	bottom: calc(1vw + 1vw + 8vh);
+	right: 1vw;
+	width: 8vh;
+	height: 8vh;
+	
+	display: table;
+}
+
+#plus span
+{
+	display: table-cell;
+	vertical-align: middle;
+	
+	text-align: center;
+}
+
+#plus span img
+{
+	height: 4vh;
+	
+	padding: 2vh;
+	
+	border-radius: 50%;
+	
+	background: #2196f3;
+	
+	cursor: pointer;
+	
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+#plus span img:hover
+{
+	background: #0d47a1;
+}
+
+#page1
+{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	height: 90%;
+	
+	background: rgba(232, 234, 246, 0.6);
+}
+
+#page1 #content_page1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#page2
+{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(232, 245, 233, 0.9);
+}
+
+#page2 #content_page2
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#page3
+{
+	position: absolute;
+	top: 200%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background: rgba(255, 243, 224, 0.9);
+}
+
+#page3 #content_page3
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#page4
+{
+	position: absolute;
+	top: 300%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background: rgba(239, 235, 233, 0.9);
+}
+
+#page4 #content_page4
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 640px) 
+{
+    #page1
+    {
+        position: absolute;
+        top: 60%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background: rgba(232, 234, 246, 0.6);
+    }
+
+    #page2
+    {
+        position: absolute;
+        top: 160%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background: rgba(232, 245, 233, 0.9);
+    }
+
+    #page3
+    {
+        position: absolute;
+        top: 260%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background: rgba(255, 243, 224, 0.9);
+    }
+
+    #page4
+    {
+        position: absolute;
+        top: 360%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background: rgba(239, 235, 233, 0.9);
+    }
+    
+    #up
+    {
+        display: none;
+    }
+}

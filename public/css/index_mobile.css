@@ -1,0 +1,417 @@
+@media (max-width: 640px) 
+{
+	*
+    {
+        font-size: 1.1em;
+    }
+
+    body
+    {
+        background: url("../images/background.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    /* Page 1 */
+    #page1 #content_page1
+    {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #page1 #content_page1 #catchword
+    {
+        position: absolute;
+        top: 0;
+        left: 1%;
+        width: 98%;
+        height: 25%;
+
+        display: table;
+
+        font-size: 5vh;
+
+        color: white;
+    }
+
+    #page1 #content_page1 #catchword span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+        
+        font-size: 1.0em;
+    }
+
+    #page1 #content_page1 #catchword span b
+    {
+        color: #4bd350;
+    }
+
+    #page1 #content_page1 #box_area
+    {
+        position: absolute;
+        top: 25%;
+        left: 1%;
+        width: 98%;
+        height: 65%;
+    }
+
+    #page1 #content_page1 #box_area div
+    {
+        display: table;
+
+        border-radius: 5px;
+
+        background: #c8e6c9;
+
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+    }
+
+    #page1 #content_page1 #box_area div span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+
+        font-size: 2.5vh;
+
+        padding-left: 1vw;
+        padding-right: 1vw;
+
+        width: 90vw;
+        height: 12vh;
+    }
+
+    #page1 #content_page1 #box_area div span img
+    {
+        height: 4vh;
+        max-height: 100px;
+        
+        margin-bottom: -15px;
+    }
+
+    #page1 #content_page1 #box_area #box1
+    {
+        position: absolute;
+        top: 0;
+        left: calc(50% - 45vw - 1vw);
+
+        background: #fff9c4;
+    }
+
+    #page1 #content_page1 #box_area #box2
+    {
+        position: absolute;
+        top: calc(12vh + 1vh);
+        left: calc(50% - 45vw - 1vw);
+
+        background: #ffe0b2;
+    }
+
+    #page1 #content_page1 #box_area #box3
+    {
+        position: absolute;
+        top: calc(12vh*2 + 2vh);
+        left: calc(50% - 45vw - 1vw);
+
+        background: #c5cae9;
+    }
+
+    #page1 #content_page1 #box_area #box4
+    {
+        position: absolute;
+        top: calc(12vh*3 + 3vh);
+        left: calc(50% - 45vw - 1vw);
+
+        background: #ffcdd2;
+    }
+
+    #page1 #content_page1 #last_news
+    {
+        position: absolute;
+        top: calc(25% + 12vh*4 + 5vh);
+        left: 10%;
+        width: 80%;
+        height: 20vh;
+
+        border-radius: 5px;
+
+        background: white;
+    }
+
+    #page1 #content_page1 #last_news .title
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30%;
+
+        display: table;
+
+        background: #4bd350;
+        color: white;
+
+        font-size: 2.5vh;
+
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    #page1 #content_page1 #last_news .title span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+    }
+
+    #page1 #content_page1 #last_news .content
+    {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+
+        display: table;
+    }
+
+    #page1 #content_page1 #last_news .content span
+    {
+        display: table-row;
+
+        font-size: 2vh;
+
+        cursor: pointer;
+
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+    }
+    #page1 #content_page1 #last_news .content span:hover
+    {
+        color: #1b5e20;
+        background: #c8e6c9;
+    }
+
+    #page1 #content_page1 #last_news .content span p
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+    }
+
+    #page1 #content_page1 #next
+    {
+        display: none;
+    }
+
+    /* Page 2 */
+    #page2 #content_page2 #title
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+
+        display: table;
+    }
+
+    #page2 #content_page2 #title span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+
+        font-size: 5vh;
+    }
+
+    #page2 #content_page2 #tarifs
+    {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        width: 90%;
+        height: 65%;
+
+        display: table;
+    }
+
+    #page2 #content_page2 #tarifs span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: left;
+    }
+
+    #page2 #content_page2 #tarifs span b
+    {
+        color: #4bd350;
+    }
+
+    #page2 #content_page2 #tarifs span p
+    {
+        font-size: 0.85em;
+    }
+
+    #page2 #content_page2 #tarifs span .reduc
+    {
+        font-size: 1em;
+
+        text-align: center;
+
+        color: #1b5e20;
+    }
+
+    #page2 #content_page2 #actions
+    {
+        display: none;
+    }
+
+    /* Page 3 */
+    #page3 #content_page3 #title
+    {
+        position: absolute;
+        top: 0;
+        left: 5%;
+        width: 90%;
+        height: 20%;
+
+        display: table;
+    }
+
+    #page3 #content_page3 #title span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+
+        font-size: 5vh;
+    }
+
+    #page3 #content_page3 #inscription
+    {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 90%;
+        height: 60%;
+
+        display: table;
+    }
+    
+    #page3 #content_page3 #inscription ul
+    {
+        margin-left: -30px;
+    }
+
+    #page3 #content_page3 #creneaux
+    {
+        display: none;
+    }
+
+    #page3 #content_page3 #inscription span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: justify;
+
+        font-size: 0.5em;
+    }
+
+    #page3 #content_page3 #inscription span .important
+    {
+        font-size: 1.2em;
+    }
+
+    #page3 #content_page3 #inscription span h1, #page3 #content_page3 #inscription span b
+    {
+        color: #ff5722;
+    }
+
+    #page3 #content_page3 #inscription span h1
+    {
+        font-size: 1.5em;
+
+        color: #4bd350;
+    }
+
+    #page3 #content_page3 #inscription span p
+    {
+        text-align: center;
+
+        color: #ff5722;
+
+        font-weight: bold;
+    }
+
+    #page3 #content_page3 #inscription span embed
+    {
+        display: none;
+    }
+
+    #page3 #content_page3 #files
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 25%;
+
+        background: #bf360c;
+
+        display: table;
+
+        font-size: 2.2vh;
+    }
+
+    #page3 #content_page3 #files span
+    {
+        display: table-row;
+    }
+
+    #page3 #content_page3 #files span p
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+
+        color: #fbe9e7;
+
+        cursor: pointer;
+
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+    }
+    #page3 #content_page3 #files span p:hover
+    {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    #page3 #content_page3 #files span p a
+    {
+        color: inherit;
+
+        text-decoration: inherit;
+    }
+
+    #page3 #content_page3 #files span p img
+    {
+        display: none;
+        
+        margin: 0;
+        padding: none;
+    }
+}

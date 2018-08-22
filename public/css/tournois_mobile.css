@@ -1,0 +1,150 @@
+@media (max-width: 640px) 
+{
+    /* Page 1 */
+    #page1 #content_page1 #title
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+
+        display: table;
+    }
+
+    #page1 #content_page1 #title span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+
+        font-size: 5vh;
+    }
+
+    #page1 #content_page1 #button_download_jeunes
+    {
+        position: absolute;
+        top: 2vh;
+        right: 5vw;
+        height: 10vh;
+        width: 20vw;
+
+        display: table;
+
+        background: #4bd350;
+        color: white;
+
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+
+        padding-left: 1vw;
+        padding-right: 1vw;
+
+        font-size: 2.2vh;
+    }
+    #page1 #content_page1 #button_download_jeunes:hover
+    {
+        background: #1b5e20;
+    }
+
+    #page1 #content_page1 #button_download_jeunes span
+    {
+        display: table-cell;
+        vertical-align: middle;
+
+        text-align: center;
+    }
+
+    #page1 #content_page1 #tournaments
+    {
+        position: absolute;
+        top: 15%;
+        left: 0;
+        width: 100%;
+        max-height: calc(12 * 15vh);
+        min-height: 85%;
+    }
+
+    #page1 #content_page1 #tournaments table
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        border-collapse: collapse;
+    }
+
+    #page1 #content_page1 #tournaments table tr
+    {
+        font-size: 0.7em;
+
+        text-align: center;
+
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+    }
+    #page1 #content_page1 #tournaments table tr:hover
+    {
+        background: #c8e6c9;
+    }
+
+    #page1 #content_page1 #tournaments table tr td
+    {
+        width: 10%;
+
+        height: 10vh;
+        
+        border: 1px solid rgba(0, 0, 0, 0.17);
+    }
+    
+    #page1 #content_page1 #tournaments table tr td:last-child
+    {
+        display: none;
+    }
+    
+    #page1 #content_page1 #tournaments table tr th:last-child
+    {
+        display: none;
+    }
+
+    #page1 #content_page1 #tournaments table tr td button
+    {
+        border: none;
+        padding: 0.5vh;
+
+        width: 15vw;
+
+        font-size: 2vh;
+
+        cursor: pointer;
+
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+    }
+    #page1 #content_page1 #tournaments table tr td button:hover
+    {
+        background: #4bd350;
+        color: white;
+    }
+
+    /* Page 2 */
+    #page2
+    {
+        display: none;
+    }
+
+    /* Page 3 */
+    #page3
+    {
+        display: none;
+    }
+}
